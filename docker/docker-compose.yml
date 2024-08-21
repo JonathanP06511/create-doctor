@@ -1,0 +1,8 @@
+version: "3.9"
+services:
+  create-doctor:
+   build: ../create-doctor
+   ports:
+     - 5006
+
+  
